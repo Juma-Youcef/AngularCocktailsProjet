@@ -1,12 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { Footer } from './component/footer/footer';
-import { Header } from './component/header/header';
+import { HeaderComponent } from './component/header/component/header';
 import { CocktailsComponent } from './component/cocktails/cocktails';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [Footer, Header, CocktailsComponent],
+  imports: [Footer, HeaderComponent, CocktailsComponent],
   template: `
     <app-header></app-header>
     <app-cocktails></app-cocktails>
