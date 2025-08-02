@@ -1,4 +1,4 @@
-import { Component, computed, effect, signal } from '@angular/core';
+import { Component, computed, signal } from '@angular/core';
 import { CocktailsListComponent } from './components/cocktails-liste/cocktails-list';
 import { CocktailDetailsComponent } from './components/cocktails-details/cocktails-details';
 import { Cocktail } from 'app/shared/interface/interfaces';
